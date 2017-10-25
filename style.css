@@ -1,0 +1,110 @@
+body {
+  color: #46494C;
+  background-color: #DEE7E7;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  color: #0D1F2D;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  color: #4C5C68;
+}
+
+h2{
+  font-size: 18px;
+}
+
+h3{
+  font-size: 16px;
+}
+
+a {
+  color: #9EA3B0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+.container{
+  margin: 0 auto;
+  padding: 20px;
+  width: 700px;
+}
+
+.card{
+  background-color: #FAFAFA;
+  margin: 30px auto;
+  padding: 25px;
+  border:
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.fa-big {
+  font-size: 30px
+}
+
+#profile-picture {
+  width:140px; /* you can use % */
+  height: auto;
+}
+
+.picture-resize {
+  width: auto;
+  height: 200px;
+  margin: 10px 5px;
+}
+
+h4 {
+  font-style: italic;
+  color: grey;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1em
+}
+
+#jumpscare img:hover {
+  transform: scale(3.0)
+}
