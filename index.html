@@ -8,86 +8,95 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card text-centered">
-      <img src="images/Charles-CV.JPG" alt="" class="img-circle" id="profile-picture">
-      <h1>Charles de Gheldere</h1>
-      <h2>Programmer</h2>
-      <p>After being bored in dentistry, I decided to give programming a go with <a href="#">LeWagon</a><br/>So far it has been a blast, but now we're starting front-end.. (see dislikes)</p>
-      <p><b>likes:</b> Watersports, programming, rpg's</p>
-      <p><b>dislikes:</b> HTML & css</p>
-    </div>
-    <div class="card">
-      <ul class="list-inline text-centered">
-        <li class="text-centered">
-          <a href="#">
-            <i class="fa fa-facebook fa-big"></i>
-            <p>Facebook</p>
-          </a>
-        </li>
-        <li class="text-centered">
-          <a href="#">
-            <i class="fa fa-linkedin fa-big"></i>
-            <p>LinkedIn</p>
-          </a>
-        </li>
-        <li class="text-centered">
-          <a href="#">
-            <i class="fa fa-twitter fa-big"></i>
-            <p>Twitter</p>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="card">
-      <table>
-        <thead><h2 class="text-centered">My Favorite Anime</h2></thead>
-        <tr>
-          <td>
-            <img src="images/FMA.jpg" alt="" class="picture-resize" id="jumpscare">
-          </td>
-          <td>
+  <div id="sidebar">
+    <ul class="list-inline text-centered">
+      <li><a href="#info"><h6>info</h6></a></li>
+      <li><a href="#contact"><h6>contact</h6></a></li>
+      <li><a href="#interests"><h6>interests</h6></a></li>
+    </ul>
+  </div>
+  <div id="page-content">
+    <div class="container">
+      <div class="card text-centered" id="info">
+        <img src="images/Charles-CV.JPG" alt="" class="img-circle" id="profile-picture">
+        <h1>Charles de Gheldere</h1>
+        <h2>Programmer</h2>
+        <p>After being bored in dentistry, I decided to give programming a go with <a href="#">LeWagon</a><br/>So far it has been a blast, but now we're starting front-end.. (see dislikes)</p>
+        <p><b>likes:</b> Watersports, programming, rpg's</p>
+        <p><b>dislikes:</b> HTML & css</p>
+      </div>
+      <div class="card" id="contact">
+        <ul class="list-inline text-centered">
+          <li class="text-centered">
             <a href="#">
-              <h3>Full metal alchemist</h3>
+              <i class="fa fa-facebook fa-big"></i>
+              <p>Facebook</p>
             </a>
-            <h4>Edwaaaard</h4>
-            <p>When a failed alchemical ritual leaves brothers Edward and Alphonse Elric with severely damaged bodies, they begin searching for the one thing that can save them; the fabled philosopher's stone.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/berserk2.jpg" alt="" class="picture-resize">
-          </td>
-          <td>
+          </li>
+          <li class="text-centered">
             <a href="#">
-              <h3>Berserk</h3>
+              <i class="fa fa-linkedin fa-big"></i>
+              <p>LinkedIn</p>
             </a>
-            <h4>Original version, remake is a Joke (with a capital J)</h4>
-            <p>Guts is a skilled swordsman who joins forces with a mercenary group named 'The Band of the Hawk', lead by the charismatic Griffith, and fights with them as they battle their way into the royal court.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/monster2.jpg" alt="" class="picture-resize">
-          </td>
-          <td>
+          </li>
+          <li class="text-centered">
             <a href="#">
-              <h3>Monster</h3>
+              <i class="fa fa-envelope-o fa-big"></i>
+              <p>E-Mail</p>
             </a>
-            <h4>Almost finished, already in top 3</h4>
-            <p>A brilliant neurosurgeon living in Germany finds his life in utter turmoil after getting involved with a psychopath that was once a former patient.</p>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div class="card">
-      <h2 class="text-centered">about this page</h2>
-      <p class="text-centered">made <a href="#">@LeWagon</a> amsterdam</p>
-      <ul class="list-inline text-centered">
-        <li><i class="fa fa-heart"></i></li>
-        <li><i class="fa fa-share"></i></li>
-        <li><i class="fa fa-star"></i></li>
-      </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="card" id="interests">
+        <table>
+          <thead><h2 class="text-centered">My Favorite Anime</h2></thead>
+          <tr>
+            <td>
+              <img src="images/FMA.jpg" alt="" class="picture-resize" id="jumpscare">
+            </td>
+            <td>
+              <a href="#">
+                <h3>Full metal alchemist</h3>
+              </a>
+              <h4>Edwaaaard</h4>
+              <p>When a failed alchemical ritual leaves brothers Edward and Alphonse Elric with severely damaged bodies, they begin searching for the one thing that can save them; the fabled philosopher's stone.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/berserk2.jpg" alt="" class="picture-resize">
+            </td>
+            <td>
+              <a href="#">
+                <h3>Berserk</h3>
+              </a>
+              <h4>Original version, remake is a Joke (with a capital J)</h4>
+              <p>Guts is a skilled swordsman who joins forces with a mercenary group named 'The Band of the Hawk', lead by the charismatic Griffith, and fights with them as they battle their way into the royal court.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/monster2.jpg" alt="" class="picture-resize">
+            </td>
+            <td>
+              <a href="#">
+                <h3>Monster</h3>
+              </a>
+              <h4>Almost finished, already in top 3</h4>
+              <p>A brilliant neurosurgeon living in Germany finds his life in utter turmoil after getting involved with a psychopath that was once a former patient.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="card" >
+        <h2 class="text-centered">about this page</h2>
+        <p class="text-centered">made <a href="#">@LeWagon</a> amsterdam</p>
+        <ul class="list-inline text-centered">
+          <li><i class="fa fa-heart"></i></li>
+          <li><i class="fa fa-share"></i></li>
+          <li><i class="fa fa-star"></i></li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
