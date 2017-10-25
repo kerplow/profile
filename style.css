@@ -24,6 +24,19 @@ h3{
   font-size: 16px;
 }
 
+h4 {
+  font-style: italic;
+  color: grey;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1em
+}
+
+h6 {
+  color: #4C5C68;
+  font-size: 16px;
+}
+
 a {
   color: #9EA3B0;
   text-decoration: none;
@@ -43,26 +56,7 @@ a:hover {
   background-color: #FAFAFA;
   margin: 30px auto;
   padding: 25px;
-  border-radius: 5px:
-}
-
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
+  border-radius: 5px;
 }
 
 .list-inline > li {
@@ -97,14 +91,6 @@ a:hover {
   margin: 10px 5px;
 }
 
-h4 {
-  font-style: italic;
-  color: grey;
-  font-size: 15px;
-  font-weight: 100;
-  line-height: 1em
-}
-
 .jumpscare img:hover {
   transform: scale(3.0)
 }
@@ -117,10 +103,25 @@ h4 {
   bottom: 0;
 }
 #page-content {
-  margin-left: 0px;
+  margin: 0px;
 }
 
-h6 {
-  color: #4C5C68;
-  font-size: 16px;
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
 }
